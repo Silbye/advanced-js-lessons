@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container textarea {
+  width: 25%;
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.container button {
+  width: 25%;
+  padding: 10px;
+}
+
+.reviews {
+  margin-top: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.review {
+  width: 150px;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+}
